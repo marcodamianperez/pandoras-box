@@ -1,0 +1,15 @@
+.prices {
+    background-color: $color-primary-2;
+    clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
+    margin-top: -10vw;
+    padding: 8rem 0;
+
+    @include respond(tablet-portrait) {
+        padding: 10rem 0;
+    }
+
+    @include respond(tablet-landscape) {
+        clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 100%);
+        margin-top: -5vw;
+    }
+}

@@ -1,0 +1,46 @@
+@keyframes bounce {
+    0% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    50% {
+        transform: translate(-50%, -20%) rotate(45deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+@keyframes slide-from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-15rem);
+    }
+    
+    80% {
+        transform: translateX(1rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+@keyframes slide-from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(15rem);
+    }
+    
+    80% {
+        transform: translateX(-1rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

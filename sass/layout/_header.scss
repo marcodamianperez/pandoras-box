@@ -1,0 +1,25 @@
+.header {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba($color-primary-1, .8), rgba($color-primary-1, .8)),
+                url("../img/hero.jpg");
+    background-position: center;
+    background-position-x: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.scroll-down-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px solid $color-text-white;
+    @include center-absolute;
+    top: 82%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-color: transparent $color-text-white $color-text-white transparent;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

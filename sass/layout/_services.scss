@@ -1,0 +1,75 @@
+.recording,
+.mastering,
+.mixing {
+    margin-top: -10vw;
+    padding: 8rem 0;
+
+    @include respond(tablet-landscape) {
+        margin-top: -5vw;
+    }
+
+    @include respond(desktop) {
+        padding: 10rem 0;
+    }
+}
+
+.recording {
+    background-color: $color-primary-2;
+    clip-path: polygon(0 0, 100% 10vw, 100% 100%, 0 100%);
+
+    @include respond(tablet-landscape) {
+        clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 100%);
+    }
+}
+
+.mastering {
+    text-align: right;
+    background-color: $color-primary-3;
+    clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
+
+    @include respond(tablet-landscape) {
+        clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+.mixing {
+    background-color: $color-primary-4;
+    clip-path: polygon(0 0, 100% 10vw, 100% 100%, 0 100%);
+
+    @include respond(tablet-landscape) {
+        clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 100%);
+    }
+}
+
+.circle-image {
+    width: 20rem;   
+    height: 20rem;
+    border-radius: 50%;
+
+    @include respond(tablet-landscape) {
+        width: 23rem;
+        height: 23rem;
+        margin-right: 6rem;
+
+        &--right {
+            margin-right: 0;
+            margin-left: 6rem;
+        }
+    }
+
+    @include respond(desktop) {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@include respond(tablet-landscape) {
+    .section-flex-container {
+        display: flex;
+        align-items: center;
+    
+        &--right {
+            flex-direction: row-reverse;
+        }
+    }
+}

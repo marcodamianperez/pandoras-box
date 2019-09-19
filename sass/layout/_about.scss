@@ -1,0 +1,39 @@
+.about {
+    background-color: $color-primary-3;
+    clip-path: polygon(0 0, 100% 10vw, 100% 100%, 0 100%);
+    margin-top: -10vw;
+    padding: 8rem 0;
+
+    @include respond(tablet-portrait) {
+        padding: 10rem 0;
+    }
+
+    @include respond(tablet-portrait) {
+        clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 100%);
+        margin-top: -5vw;
+    }
+
+    &-flex-container {
+        display: flex;
+        flex-direction: column;
+        
+
+        @include respond(tablet-landscape) {
+            flex-direction: row;
+
+            .soundcloud-frame {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    @include respond(tablet-landscape) {
+        .soundcloud-frame {
+            margin-top: 2rem;
+        }
+
+        .about-text {
+            margin-right: 20rem;
+        }
+    }
+}

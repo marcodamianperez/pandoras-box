@@ -1,0 +1,75 @@
+.contact {
+    background: linear-gradient(to bottom, rgba($color-primary-1, .9), rgba($color-primary-1, .9)),
+                url("../img/contact-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
+    margin-top: -10vw;
+    padding: 8rem 0;
+
+    @include respond(tablet-portrait) {
+        padding: 10rem 0;
+    }
+
+    @include respond(tablet-landscape) {
+        clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 100%);
+        margin-top: -5vw;
+    }
+}
+
+.social {
+    margin-top: 6rem;
+
+    @include respond(tablet-landscape) {
+        margin-top: 4rem;
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: row;
+        color: $color-text-white;
+        font-size: 1.2rem;
+    
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+
+            @include respond(tablet-landscape) {
+                margin-bottom: 5rem;
+            }
+        }
+    
+        .icon-container {
+            margin-top: -.6rem;
+            margin-right: 2rem;
+            width: 3rem;
+    
+            height: 3rem;
+            border: 2px solid rgba($color-text-white, .2);
+            background-color: transparent;
+            border-radius: 50%;
+            position: relative;
+    
+            .icon {
+                @include center-absolute;
+            }
+        }
+    
+        &-text {
+            div, a {
+                color: $color-text-white;
+                font-size: 1.4rem;
+            }
+
+            div:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@include respond(tablet-landscape) {
+    .contact-flex-container {
+        display: flex;
+    }
+}
