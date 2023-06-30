@@ -4,11 +4,11 @@
   "description": "Pandora's Box - Estudio de grabación",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+    "sass": "sass sass/main.scss css/main.css -w"
   },
   "author": "Marco Pérez",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "sass": "^1.63.6"
   }
 }
