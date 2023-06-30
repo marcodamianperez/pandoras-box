@@ -1,291 +1,363 @@
 <!DOCTYPE html>
-<html lang='es'>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Marco Pérez">
-    <meta name="description" content="Pandora's Box - Estudio de grabación">
-    <meta name="keywords" content="grabación, estudio, música, sala, mezcla, edición, masterización">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Marco Pérez" />
+    <meta name="description" content="Pandora's Box - Estudio de grabación" />
+    <meta
+      name="keywords"
+      content="grabación, estudio, música, sala, mezcla, edición, masterización"
+    />
     <title>Pandora's Box</title>
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://kit.fontawesome.com/fa02e0acb6.js"></script>
 
     <!-- FAVICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicons/favicon-16x16.png"
+    />
+  </head>
+  <body>
     <div class="overlay" id="overlay">
-        
-        <div class="cross" id="cross">
-            <div class="cross__line"></div>
-        </div>
-        <nav class="overlay-nav">
-            <ul class="overlay-nav__list">
-                <li class="overlay-nav__item"><a href="#services" class="overlay-nav__link">Servicios</a></li>
-                <li class="overlay-nav__item"><a href="#prices" class="overlay-nav__link">Precios</a></li>
-                <li class="overlay-nav__item"><a href="#about" class="overlay-nav__link">Acerca de</a></li>
-                <li class="overlay-nav__item"><a href="#contact" class="overlay-nav__link">Contacto</a></li>
-            </ul>
-        </nav>
-
+      <div class="cross" id="cross">
+        <div class="cross__line"></div>
+      </div>
+      <nav class="overlay-nav">
+        <ul class="overlay-nav__list">
+          <li class="overlay-nav__item">
+            <a href="#services" class="overlay-nav__link">Servicios</a>
+          </li>
+          <li class="overlay-nav__item">
+            <a href="#prices" class="overlay-nav__link">Precios</a>
+          </li>
+          <li class="overlay-nav__item">
+            <a href="#about" class="overlay-nav__link">Acerca de</a>
+          </li>
+          <li class="overlay-nav__item">
+            <a href="#contact" class="overlay-nav__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <header class="header" id="top">
-        <div class="menu">
-            <div class="u-container">
+      <div class="menu">
+        <div class="u-container">
+          <div class="menu-inner">
+            <a href="#top" class="company-name">Pandora's Box</a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#services" class="nav__link">Servicios</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#prices" class="nav__link">Precios</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">Acerca de</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contacto</a>
+                </li>
+              </ul>
+            </nav>
 
-                <div class="menu-inner">
-
-                    <a href="#top" class="company-name">Pandora's Box</a>
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
-                            <li class="nav__item"><a href="#prices" class="nav__link">Precios</a></li>
-                            <li class="nav__item"><a href="#about" class="nav__link">Acerca de</a></li>
-                            <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
-                        </ul>
-                    </nav>
-                    
-                    <!-- Hamburger button -->
-                    <div class="hamburger" id="hamburger">
-                        <div class="hamburger__line"></div>
-                    </div>
-                    
-                </div>
+            <!-- Hamburger button -->
+            <div class="hamburger" id="hamburger">
+              <div class="hamburger__line"></div>
             </div>
+          </div>
         </div>
-        <h1 class="heading-primary">
-            <div class="heading-primary__title">Pandora's Box</div>
-            <div class="heading-primary__subtitle">Estudios</div>
-        </h1>
+      </div>
+      <h1 class="heading-primary">
+        <div class="heading-primary__title">Pandora's Box</div>
+        <div class="heading-primary__subtitle">Estudios</div>
+      </h1>
 
-        <a href="#services" class="scroll-link">
-            <div class="scroll-down-arrow"></div>
-        </a>
+      <a href="#services" class="scroll-link">
+        <div class="scroll-down-arrow"></div>
+      </a>
     </header>
 
     <section class="recording" id="services">
-        <div class="u-container">
-            <div class="section-flex-container">
-                <img src="img/recording.jpg" alt="grabación" class="circle-image">
-                <div class="text-container">
-                    <h2 class="heading-secondary">Grabación</h2>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum, maxime porro minima at, autem ea tempora mollitia dicta eveniet laboriosam corporis veritatis, tempore sapiente nesciunt? Nemo deserunt suscipit placeat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, porro.
-                    </p>
-                    <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
-                </div>
-            </div>
+      <div class="u-container">
+        <div class="section-flex-container">
+          <img src="img/recording.jpg" alt="grabación" class="circle-image" />
+          <div class="text-container">
+            <h2 class="heading-secondary">Grabación</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              rerum, maxime porro minima at, autem ea tempora mollitia dicta
+              eveniet laboriosam corporis veritatis, tempore sapiente nesciunt?
+              Nemo deserunt suscipit placeat! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure, porro.
+            </p>
+            <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="mastering">
-        <div class="u-container">
-            <div class="section-flex-container section-flex-container--right">
-                <img src="img/mastering.jpg" alt="grabación" class="circle-image circle-image--right">
-                <div class="text-container">
-                    <h2 class="heading-secondary">Edición y mezcla</h2>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laudantium quasi eligendi, ut temporibus hic aperiam sequi corporis eveniet voluptates, provident voluptate quo veniam alias rerum! Totam consequuntur nostrum velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, veritatis!
-                    </p>
-                    <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
-                </div>
-            </div>
+      <div class="u-container">
+        <div class="section-flex-container section-flex-container--right">
+          <img
+            src="img/mastering.jpg"
+            alt="grabación"
+            class="circle-image circle-image--right"
+          />
+          <div class="text-container">
+            <h2 class="heading-secondary">Edición y mezcla</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laudantium quasi eligendi, ut temporibus hic aperiam sequi
+              corporis eveniet voluptates, provident voluptate quo veniam alias
+              rerum! Totam consequuntur nostrum velit? Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Consequuntur, veritatis!
+            </p>
+            <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="mixing">
-        <div class="u-container">
-            <div class="section-flex-container">
-                <img src="img/mixing.jpg" alt="grabación" class="circle-image">
-                <div class="text-container">
-                    <h2 class="heading-secondary">Masterización</h2>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus at similique dolores voluptas commodi, modi totam qui ut doloribus quos officia ratione aut animi non dicta quidem? Officia, maxime quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis!
-                    </p>
-                    <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
-                </div>
-            </div>
+      <div class="u-container">
+        <div class="section-flex-container">
+          <img src="img/mixing.jpg" alt="grabación" class="circle-image" />
+          <div class="text-container">
+            <h2 class="heading-secondary">Masterización</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+              at similique dolores voluptas commodi, modi totam qui ut doloribus
+              quos officia ratione aut animi non dicta quidem? Officia, maxime
+              quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquam, officiis!
+            </p>
+            <a href="#" class="info">Info<i class="fas fa-angle-right"></i></a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="prices" id="prices">
-        <div class="u-container">
+      <div class="u-container">
+        <h2 class="heading-secondary">Nuestros precios</h2>
 
-            <h2 class="heading-secondary">Nuestros precios</h2>
-
-            <div class="cards-container">
-
-                <!-- Card 1 -->
-                <div class="card">
-                    <h3 class="card-title">EP3</h3>
-                    <div class="card-price">
-                        <div class="card-price__number">2000</div>
-                    </div>
-                    <ul class="card-features">
-                        <li class="card-features__item">3 canciones</li>
-                        <li class="card-features__item">Grabación completa</li>
-                        <li class="card-features__item">Edición y mezcla</li>
-                        <li class="card-features__item">Masterización</li>
-                    </ul>
-                    <a href="#contact" class="card-button">Contratar</a>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="card">
-                    <h3 class="card-title">EP5</h3>
-                    <div class="card-price">
-                        <div class="card-price__number">3500</div>
-                    </div>
-                    <ul class="card-features">
-                        <li class="card-features__item">5 canciones</li>
-                        <li class="card-features__item">Grabación completa</li>
-                        <li class="card-features__item">Edición y mezcla</li>
-                        <li class="card-features__item">Masterización</li>
-                    </ul>
-                    <a href="#contact" class="card-button">Contratar</a>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="card">
-                    <h3 class="card-title">CD</h3>
-                    <div class="card-price">
-                        <div class="card-price__number">6500</div>
-                    </div>
-                    <ul class="card-features">
-                        <li class="card-features__item">Hasta 15 canciones</li>
-                        <li class="card-features__item">Grabación completa</li>
-                        <li class="card-features__item">Edición y mezcla</li>
-                        <li class="card-features__item">Masterización</li>
-                        <li class="card-features__item">Book de fotos</li>
-                    </ul>
-                    <a href="#contact" class="card-button">Contratar</a>
-                </div>
+        <div class="cards-container">
+          <!-- Card 1 -->
+          <div class="card">
+            <h3 class="card-title">EP3</h3>
+            <div class="card-price">
+              <div class="card-price__number">2000</div>
             </div>
+            <ul class="card-features">
+              <li class="card-features__item">3 canciones</li>
+              <li class="card-features__item">Grabación completa</li>
+              <li class="card-features__item">Edición y mezcla</li>
+              <li class="card-features__item">Masterización</li>
+            </ul>
+            <a href="#contact" class="card-button">Contratar</a>
+          </div>
 
+          <!-- Card 2 -->
+          <div class="card">
+            <h3 class="card-title">EP5</h3>
+            <div class="card-price">
+              <div class="card-price__number">3500</div>
+            </div>
+            <ul class="card-features">
+              <li class="card-features__item">5 canciones</li>
+              <li class="card-features__item">Grabación completa</li>
+              <li class="card-features__item">Edición y mezcla</li>
+              <li class="card-features__item">Masterización</li>
+            </ul>
+            <a href="#contact" class="card-button">Contratar</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <h3 class="card-title">CD</h3>
+            <div class="card-price">
+              <div class="card-price__number">6500</div>
+            </div>
+            <ul class="card-features">
+              <li class="card-features__item">Hasta 15 canciones</li>
+              <li class="card-features__item">Grabación completa</li>
+              <li class="card-features__item">Edición y mezcla</li>
+              <li class="card-features__item">Masterización</li>
+              <li class="card-features__item">Book de fotos</li>
+            </ul>
+            <a href="#contact" class="card-button">Contratar</a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="u-container">
-            <h2 class="heading-secondary">Sobre nosotros</h2>
+      <div class="u-container">
+        <h2 class="heading-secondary">Sobre nosotros</h2>
 
-            <div class="about-flex-container">
+        <div class="about-flex-container">
+          <p class="description about-text">
+            Somos un home estudio ubicado en Villa Mercedes, provincia de San
+            Luis. Trabajamos desde hace más de 5 años con los más reconocidos
+            artistas y bandas locales con el objetivo de transmitir en cada
+            grabación el sonido auténtico de cada músico. Nos complace formar
+            parte de la cultura musical de la provincia y del país, brindando un
+            servicio de calidad que cumple con los más altos estándares que
+            exige la industria al día de hoy.
+          </p>
 
-                <p class="description about-text">
-                    Somos un home estudio ubicado en Villa Mercedes, provincia de San Luis. Trabajamos desde hace más de 5 años con los más reconocidos artistas y bandas locales con el objetivo de transmitir en cada grabación el sonido auténtico de cada músico. Nos complace formar parte de la cultura musical de la provincia y del país, brindando un servicio de calidad que cumple con los más altos estándares que exige la industria al día de hoy.
-                </p>
-    
-                <iframe class="soundcloud-frame" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/10812545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-            </div>
-
+          <iframe
+            class="soundcloud-frame"
+            width="100%"
+            height="450"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/10812545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
         </div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
-        <div class="u-container">
+      <div class="u-container">
+        <h2 class="heading-secondary">Contacto</h2>
 
-            <h2 class="heading-secondary">Contacto</h2>
+        <p class="description">
+          Por reservas u otras consultas comunicate con nosotros completando el
+          siguiente formulario o a través de cualquiera de nuestras redes
+          sociales. También recibimos solicitudes por Whatsapp, Telegram o
+          correo electrónico.
+        </p>
 
-            <p class="description">
-                Por reservas u otras consultas comunicate con nosotros completando el siguiente formulario o a través de cualquiera de nuestras redes sociales. También recibimos solicitudes por Whatsapp, Telegram o correo electrónico.
-            </p>
-
-            <div class="contact-flex-container">
-                <form action="" class="form">
-                    <div class="form__field">
-                        <label for="name">Nombre</label>
-                        <input type="text" id="name" required>
-                    </div>
-                    <div class="form__field">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form__field">
-                        <label for="message">Mensaje</label>
-                        <textarea id="message"></textarea>
-                    </div>
-                    <div class="form__field">
-                        <input type="submit" value="Enviar">
-                    </div>
-                </form>
-
-                <div class="social">
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fas fa-home"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <div>Calle Angosta 1234</div>
-                            <div>Villa Mercedes</div>
-                            <div>San Luis</div>
-                        </div>
-                    </div>
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fas fa-phone"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <div>(+54) 261-7894510</div>
-                        </div>
-                    </div>
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fas fa-envelope"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <a href="mailto:contacto@pandorasbox.com">contacto@pandorasbox.com</a>
-                        </div>
-                    </div>
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fab fa-facebook-f"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <a href="http://www.facebook.com" target="_blank">facebook.com/panrdorasbox0</a>
-                        </div>
-                    </div>
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fab fa-twitter"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <a href="http://www.twitter.com" target="_blank">twitter.com/@pandorasbox</a>
-                        </div>
-                    </div>
-                    <div class="social__field">
-                        <div class="icon-container">
-                            <i class="icon fab fa-instagram"></i>
-                        </div>
-                        <div class="social__field-text">
-                            <a href="http://www.instagram.com" target="_blank">instagram.com/pandorasbox</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="contact-flex-container">
+          <form action="" class="form">
+            <div class="form__field">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" required />
             </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form__field">
+              <label for="message">Mensaje</label>
+              <textarea id="message"></textarea>
+            </div>
+            <div class="form__field">
+              <input type="submit" value="Enviar" />
+            </div>
+          </form>
 
+          <div class="social">
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fas fa-home"></i>
+              </div>
+              <div class="social__field-text">
+                <div>Calle Angosta 1234</div>
+                <div>Villa Mercedes</div>
+                <div>San Luis</div>
+              </div>
+            </div>
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fas fa-phone"></i>
+              </div>
+              <div class="social__field-text">
+                <div>(+54) 261-7894510</div>
+              </div>
+            </div>
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fas fa-envelope"></i>
+              </div>
+              <div class="social__field-text">
+                <a href="mailto:contacto@pandorasbox.com"
+                  >contacto@pandorasbox.com</a
+                >
+              </div>
+            </div>
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fab fa-facebook-f"></i>
+              </div>
+              <div class="social__field-text">
+                <a href="http://www.facebook.com" target="_blank"
+                  >facebook.com/panrdorasbox</a
+                >
+              </div>
+            </div>
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fab fa-twitter"></i>
+              </div>
+              <div class="social__field-text">
+                <a href="http://www.twitter.com" target="_blank"
+                  >twitter.com/@pandorasbox</a
+                >
+              </div>
+            </div>
+            <div class="social__field">
+              <div class="icon-container">
+                <i class="icon fab fa-instagram"></i>
+              </div>
+              <div class="social__field-text">
+                <a href="http://www.instagram.com" target="_blank"
+                  >instagram.com/pandorasbox</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="u-container">
-            <div>Pandora's Box Estudios - &copy;2019</div>
-            <div class="developer">
-                Desarrollo <a href="http://www.marcodamianperez.com" target="_blank" class="developer-name">Marco Pérez</a>
-            </div>
+      <div class="u-container">
+        <div>Pandora's Box Estudios - &copy;2019</div>
+        <div class="developer">
+          Desarrollo
+          <a
+            href="https://github.com/marcodamianperez"
+            target="_blank"
+            class="developer-name"
+            >Marco Pérez</a
+          >
         </div>
+      </div>
     </footer>
-    
+
     <!-- Scripts -->
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
