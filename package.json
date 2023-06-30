@@ -2,13 +2,15 @@
   "name": "pandoras-box",
   "version": "1.0.0",
   "description": "Pandora's Box - Estudio de grabación",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "sass": "sass sass/main.scss css/main.css -w"
+    "sass": "sass src/sass/main.scss src/css/main.css -w",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Marco Pérez",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.63.6"
   }
 }
